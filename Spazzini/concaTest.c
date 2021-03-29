@@ -8,11 +8,11 @@ int main(void){
 	printf("Inserisci una parola: ");
 	scanf("%s", dimmi);
 	
-	for(i=0; (frase[i])!='\0'; i++){
-		for(j=0; (frase[i]=dimmi[j])!='\0'; i++,j++){
+	for(i=0; (frase[i])!='\0'; i++);
+		for(j=0; (frase[i]=dimmi[j])!='\0'; i++,j++);
 			printf("frase: %s \n", frase);
-		}
-	}
+		
+	
 	
 	system("pause");
 	return 0;
